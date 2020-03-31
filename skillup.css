@@ -164,7 +164,6 @@ header {
 	width: 320px;
 	float: left;
 	text-align: center;
-	padding-bottom: 90px;
 }
 
 .box2:nth-child(1) {
@@ -327,4 +326,212 @@ footer p {
 	font-size: 16px;
 	color: #FAFAFA;
 	line-height: 60px;
+}
+
+
+
+@media screen and (max-width:768px) {
+	header {
+		width: 100%;
+		height: 50px;
+	}
+
+	.nav-bar {
+		width: 90%;
+		height: 50px;
+	}
+
+	.nav-image {
+		height: 50px;
+	}
+
+	.list {
+		display: none;
+	}
+
+	.hum {
+		margin: 5px 0;
+		float: right;
+		width: 40px;
+		height: 40px;
+		border: solid 1px #FAFAFA;
+	}
+
+	.hum-line {
+		margin: 0 auto;
+		width: 25px;
+		border-bottom: solid 2px #FAFAFA;
+	}
+
+	.hum-line:nth-child(1) {
+		height: 11px;
+	}
+
+	.hum-line:nth-child(2){
+		height: 8px;
+	}
+
+	.hum-line:nth-child(3) {
+		height: 8px;
+	}
+
+	.main-visual {
+		background-image: url(img/code.png);
+	}
+
+	.mv-text1 {
+		margin: 0 auto;
+		width: 90%;
+		font-size: 40px;
+	}
+
+	.mv-text2 {
+		margin: 0 auto;
+		width: 90%;
+		font-size: 18px;
+	}
+
+	.portfolio {
+		width: 90%;
+	}
+
+	.big-box {
+		margin: 0 auto;
+		height: 860px;
+		width: 90%;
+	}
+
+	.box {
+		float: none;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.box:nth-child(1) {
+		display: none;
+	}
+
+	.box:nth-child(2) {
+		margin: auto;
+	}
+
+	.box:nth-child(3) {
+		display: none;
+	}
+
+	.box:nth-child(4) {
+		margin: 0 auto;
+		margin-top: 10px;
+	}
+
+	.box:nth-child(5) {
+		display: none;
+	}
+
+	.feature {
+		width: 90%;
+	}
+
+	.big-box2 {
+		width: 90%;
+		height: auto;
+	}
+
+	.box2 {
+		margin: 0 auto;
+		width: 100%;
+		float: none;
+		text-align: center;
+		padding: 0;
+	}
+
+	.box2:nth-child(1) {
+		margin-bottom: 10px;
+	}
+
+	.box2:nth-child(2) {
+		margin-bottom: 10px;
+	}
+
+	.profile {
+		width: 90%;
+	}
+
+	.big-box3 {
+		width: 90%;
+		height: auto;
+	}
+
+	.img-box {
+		width: 100%;
+		height: 250px;
+		float: none;
+		text-align: center;
+	}
+
+	.pf-box {
+		height: auto;
+		margin-top: 20px;
+		padding-bottom: 90px;
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.back {
+		height: auto;
+	}
+
+	.contact {
+		width: 90%;
+		height: auto;
+		text-align: center;
+	}
+
+	.big-box4 {
+		height: auto;
+		width: 100%;
+		text-align: center;
+	}
+
+	.c-box1 {
+		height: auto;
+		width: 100%;
+		float: none;
+	}
+
+	.c-min-box1 {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+	.c-box2 {
+		float: none;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.c-min-box2 {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 90px;
+	}
+
+	.c-text5 {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	.c-min-box2 i {
+		font-size: 50px;
+	}
+
+	.c-1 {
+		margin-right: 8px;
+	}
+
+	.c-2 {
+		margin-right: 8px;
+	}
+
 }
